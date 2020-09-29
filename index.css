@@ -39,11 +39,10 @@ h2 {
 
 ul {
 	list-style-type: none;
-	background-color:#4a515e;
+	/*background-color:#4a515e;*/
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	box-shadow: 0px 5px 10px #000000;
 }
 
 li {
@@ -66,6 +65,10 @@ li {
 .menu {
 	position: sticky;
 	top:0;	
+	width: 100%;
+	background-color: #4a515e;
+	box-shadow: -0px 5px 10px #000000;
+
 }
 
 #menu {
@@ -172,7 +175,7 @@ li {
 }
 
 
-#columns {
+.columns {
 	width: 250px;
 	min-height: 325px;
 	height:325px;
@@ -181,12 +184,12 @@ li {
 	margin: 25px;
 }
 
-#columns img {
+.columns img {
 	width: 250px;
 	height:100%;
 }
 
-#columns img:hover {
+.columns img:hover {
 	box-shadow: 10px 15px 10px #20252e;
 	margin-top:-3px;
 }
