@@ -1,3 +1,192 @@
 body {
-	background-color:#0000FF;
+	background-color:#20252e;
+	margin: auto;
+}
+
+
+@font-face {
+		font-family: 'black_bones';
+		src: url('fonts/black_bones-webfont.woff2') format('woff2'),
+			 url('fonts/black_bones-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+}	
+
+#header {
+	/*ackground-color:#EEEEEE;*/
+	background-image: url("https://image.freepik.com/free-photo/white-art-paper-background_35956-2378.jpg");
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'black_bones';
+	font-size:130px;
+	font-weight: normal;
+	margin-top:0px;
+	margin-bottom: 0px;
+	color: #303030;
+}
+
+h2 {
+	font-family: 'black_bones';
+	font-size:40px;
+	font-weight: normal;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+ul {
+	list-style-type: none;
+	background-color:#4a515e;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0px 5px 10px #000000;
+}
+
+li {
+	float:left;
+}
+
+.menu-item {
+	display: inline-block;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 0px 0px;
+	text-decoration: none;
+	width:25%;
+}
+
+.menu-item:hover {
+	background-color:#81abeb;
+}
+
+.menu {
+	position: sticky;
+	top:0;	
+}
+
+#menu {
+	margin: auto;
+	min-width: 400px;
+	width: 900px;
+	height: 100%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size:15px;
+}
+
+.menu_img {
+	width:25px;
+	height:25px;
+}
+
+#body-content {
+	width:900px;
+	min-height: 780px;
+	margin: 0px auto 75px auto;
+	background-color: #4a515e;
+	color: #20252e;
+	padding-top:50px
+	
+}
+
+#body-text-left {
+	margin: 30px;
+	width:40%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	background-color:#EEEEEE;
+	font-size:14px;
+	padding: 15px;
+	float: left;
+	
+}
+
+#body-text-right {
+	margin: 30px;
+	width:40%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	background-color:#20252e;
+	font-size:14px;
+	padding: 15px;
+	float: left;
+	color: #EEEEEE;
+	
+}
+
+.album {
+	width: 900px;
+	height:225px;
+	margin: auto;
+	background-color: #4a515e;
+}
+
+.album img {
+	width: 25%;
+	float:left;
+
+}
+
+.album img:hover {
+	margin-top:10px;
+	box-shadow: 0px 10px 0px #EEEEEE;
+
+}
+
+#button {
+	height: 105px;
+	width: 300px;
+	float:right;
+	margin-right: 75px;
+	background-color: #6d92d6;
+	border-radius: 15px;
+	
+}
+
+#button:hover {
+	background-color: #81abeb;
+	color: #FFFFFF;
+}
+
+#button p{
+	text-decoration: none;
+	font-family: 'black_bones';
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	color: #EEEEEE;
+	margin: 10px;
+}
+
+
+#column_area {
+	width: 900px;
+	min-height: 385px;
+	height: 760px;
+	background-color: #4a515e;
+	margin:75px auto 75px auto;
+	padding-top: 15px;
+}
+
+
+#columns {
+	width: 250px;
+	min-height: 325px;
+	height:325px;
+	/*background-color: #FFFFFF;*/
+	float: left;
+	margin: 25px;
+}
+
+#columns img {
+	width: 250px;
+	height:100%;
+}
+
+#columns img:hover {
+	box-shadow: 10px 15px 10px #20252e;
+	margin-top:-3px;
 }
